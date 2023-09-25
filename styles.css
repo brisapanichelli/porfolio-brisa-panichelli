@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title {
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title:focus {
+  outline: none;
+}
+
+.section-content {
+  display: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Añade estilos para una experiencia accesible */
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/* Estilo para resaltar enfoque de teclado */
+.section-title:focus {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Colores de las secciones */
+.section:nth-child(1) {
+  background-color: #ffd6ff; /* Color para la primera sección */
+}
+
+.section:nth-child(2) {
+  background-color: #e7c6ff; /* Color para la segunda sección */
+}
+
+.section:nth-child(3) {
+  background-color: #c8b6ff; /* Color para la tercera sección */
+}
+
+.section:nth-child(4) {
+  background-color: #b8c0ff; /* Color para la cuarta sección */
+}
+
+.section:nth-child(5) {
+  background-color: #bbd0ff; /* Color para la quinta sección */
+}
+
+.section:nth-child(6) {
+  background-color: #90e0ef; /* Color para la sexta sección */
+}
+
+.section:nth-child(7) {
+  background-color: #48cae4; /* Color para la séptima sección */
+}
+.section:nth-child(8) {
+  background-color: #00B4D8; /* Color para la séptima sección */
+}
